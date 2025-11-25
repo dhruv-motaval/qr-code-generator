@@ -30,6 +30,7 @@ qr-code-generator/
 ├── index.js # Main script
 ├── package.json # Dependencies
 └── README.md # Documentation
+
 ```
 
 ---
@@ -40,7 +41,7 @@ qr-code-generator/
 ```bash
 npm install
 ```
-###2. Run the script
+### 2. Run the script
 ```bash
 node index.js "Your text or URL here"
 ```
@@ -50,4 +51,18 @@ node index.js "https://github.com/dhruv-motaval"
 ```
 
 This will generate a QR code image in the project folder.
+---
+
+## 📌 Dependencies
+qrcode
+
+---
+
+## 🧩 Future Improvements
+- Add interactive CLI menu  
+- Support WiFi QR codes  
+- Add PDF/SVG output  
+- Add a simple web UI  
+
+---
 
